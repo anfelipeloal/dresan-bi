@@ -1,8 +1,10 @@
-# Travel BI
+# Dresan BI
 
-Travel BI is an app that query a Redshift database to extract data and generate data visualizations like tables, and different kinds of chats like pies, bars, lines and maps to transform the data into something readable and with value for the users.
+Dresan BI is an app that query a Redshift database to extract data and generate data visualizations like tables, and different kinds of chats like pies, bars, lines and maps to transform the data into something readable and with value for the users.
 
 The application uses a PostgreSQL DB to handle the authentication.
+
+For a live demo go to: https://dresan-bi.netlify.app
 
 ## Stack
 - Nuxt
