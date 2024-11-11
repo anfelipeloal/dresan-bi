@@ -4,7 +4,12 @@ Dresan BI is an app that query a Redshift database to extract data and generate 
 
 The application uses a PostgreSQL DB to handle the authentication.
 
+## Demo
 For a live demo go to: https://dresan-bi.netlify.app
+email: demo@demo.com
+password: demo1234567
+
+From the left panel you can interact with the different reports where you can see tables, maps, pie, bars and lines charts. Even a query builder in the option "Booking Data Inquiry" where you can start with a date range and then add search criterias to filter the results.
 
 ## Stack
 - Nuxt
