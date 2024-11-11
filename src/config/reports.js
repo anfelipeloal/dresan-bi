@@ -1,0 +1,90 @@
+export const REPORTS = [
+    /* ------------------------- FINANCE ------------------------- */
+    {
+        label: 'Finance',
+        icon: 'i-mdi-currency-usd',
+        iconClass: 'text-gray-400 group-hover:text-gray-400',
+        labelClass: 'text-gray-400',
+        moduleHeader: 'Finance',
+    },
+    {
+        label: 'Sales Current Month',
+        icon: '',
+        to: '/reports/finance/sales-current-month',
+        labelClass: 'ml-6',
+        permission: 'sales_current_month',
+        module: 'Finance',
+    },
+    {
+        label: 'Total Sales (P&L)',
+        icon: '',
+        to: '/reports/finance/total-sales',
+        labelClass: 'ml-6',
+        permission: 'total_sales_p_and_l',
+        module: 'Finance',
+    },
+    /* ------------------------- CORPORATE ------------------------- */
+    {
+        label: 'Corporate',
+        icon: 'i-mdi-account-tie-outline',
+        iconClass: 'text-gray-400 group-hover:text-gray-400',
+        labelClass: 'text-gray-400',
+        moduleHeader: 'Corporate',
+    },
+    {
+        label: 'By Service Type',
+        icon: '',
+        to: '/reports/corporate/report-travel-type',
+        labelClass: 'ml-6',
+        permission: 'by_service_type_report',
+        module: 'Corporate',
+    },
+    {
+        label: 'Airline Production History',
+        icon: '',
+        to: '/reports/corporate/airline-production-history',
+        labelClass: 'ml-6',
+        permission: 'airline_production_history_report',
+        module: 'Corporate',
+    },
+    /* ------------------------- AIRLINES ------------------------- */
+    {
+        label: 'Air',
+        icon: 'i-mdi-airplane',
+        iconClass: 'text-gray-400 group-hover:text-gray-400',
+        labelClass: 'text-gray-400',
+        moduleHeader: 'Airlines',
+    },
+    {
+        label: 'Air Sales Analysis',
+        icon: '',
+        to: '/reports/airlines/air-sales-analysis',
+        labelClass: 'ml-6',
+        permission: 'air_sales_analysis',
+        module: 'Airlines',
+    },
+    {
+        label: 'City Pairs Analysis',
+        icon: '',
+        to: '/reports/airlines/city-pairs-analysis',
+        labelClass: 'ml-6',
+        permission: 'city_pairs_analysis',
+        module: 'Airlines',
+    },
+    /* ------------------------- GENERAL ------------------------- */
+    {
+        label: 'General',
+        icon: 'i-mdi-chart-line',
+        iconClass: 'text-gray-400 group-hover:text-gray-400',
+        labelClass: 'text-gray-400',
+        moduleHeader: 'General',
+    },
+    {
+        label: 'Booking Data Inquiry',
+        icon: '',
+        to: '/reports/general/booking-data-inquiry',
+        labelClass: 'ml-6',
+        permission: 'generate_booking_data_inquiry_reports',
+        module: 'General',
+    },
+];

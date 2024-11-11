@@ -1,0 +1,109 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": [
+        "plugin:vue/vue3-essential",
+        "airbnb-base"
+    ],
+    "globals": {
+        "addRouteMiddleware": "readonly",
+        "clearError": "readonly",
+        "createDBConnection": "readonly",
+        "closeDBConection": "readonly",
+        "createError": "readonly",
+        "defineAppConfig": "readonly",
+        "defineEmits": "readonly",
+        "defineEventHandler": "readonly",
+        "eventHandler": "readonly",
+        "getQuery": "readonly",
+        "navigateTo": "readonly",
+        "readBody": "readonly",
+        "requireAuthSession": "readonly",
+
+        "definePageMeta": "readonly",
+        "defineNuxtConfig": "readonly",
+        "defineNuxtPlugin": "readonly",
+
+        "useAuthSession": "readonly",
+        "useChartBar": "readonly",
+        "useChartLine": "readonly",
+        "useChartPie": "readonly",
+        "useChartGauge": "readonly",
+        "useFetch": "readonly",
+        "useHead": "readonly",
+        "useNuxtApp": "readonly",
+        "useTables": "readonly",
+        "useBaseReport": "readonly",
+        "useRoute": "readonly",
+        "useRouter": "readonly",
+        "useRuntimeConfig": "readonly",
+        "useSession": "readonly",
+        "useState": "readonly",
+        "useUtils": "readonly",
+        "useTransformDateCalculations": "readonly",
+
+        "computed": "readonly",
+        "nextTick":"readonly",
+        "onMounted": "readonly",
+        "ref": "readonly",
+        "watch": "readonly"
+    },
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "vue"
+    ],
+    "rules": {
+        "class-methods-use-this": "off",
+        "import/no-unresolved": "off",
+        "import/no-extraneous-dependencies": "off",
+        "import/extensions": "off",
+        "import/prefer-default-export": "off",
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": "off",
+        "max-len": "off",
+        "no-console": ["error", {
+            "allow": ["warn", "error", "info"]
+        }],
+        "no-return-await": "off",
+        "no-use-before-define": "off",
+        "vue/attributes-order": ["error", {
+            "order": [
+                "DEFINITION",
+                "GLOBAL",
+                "OTHER_ATTR",
+                ["UNIQUE", "SLOT"],
+                "CONDITIONALS",
+                "LIST_RENDERING",
+                "RENDER_MODIFIERS",
+                "TWO_WAY_BINDING",
+                "OTHER_DIRECTIVES",
+                "EVENTS",
+                "CONTENT"
+            ],
+            "alphabetical": false
+        }],
+        "vue/multi-word-component-names": "off",
+        "vue/no-empty-component-block": "error",
+        "vue/html-self-closing": ["error", {
+            "html": {
+                "void": "never",
+                "normal": "always",
+                "component": "always"
+            },
+            "svg": "always",
+            "math": "always"
+        }],
+        "vue/padding-line-between-blocks": ["error", "always"]
+    }
+}
